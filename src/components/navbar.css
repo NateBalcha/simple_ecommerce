@@ -1,0 +1,100 @@
+.activeLink {
+  border-bottom: 2px solid black;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #e3e6f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: outset;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.pageLinks {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-right: 75px;
+  font-size: 17px;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.pageLinks a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.pageLinks a:hover {
+  border-bottom: 2px solid black;
+}
+
+.links {
+  text-align: center;
+  text-decoration: none;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  color: black;
+}
+
+.links a:hover {
+  border-bottom: 2px solid black; /* Add an underline effect on hover */
+}
+
+.links a:last-child {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+/* ... Your existing styles ... */
+
+.hamburger-icon {
+  display: none; /* Hide the hamburger icon by default */
+  cursor: pointer;
+}
+
+/* Show the menu when the show-menu class is added */
+.pageLinks.show-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  background-color: #e3e6f3;
+  z-index: 100;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0%);
+}
+
+/* Style the links in the menu */
+.pageLinks.show-menu a {
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+/* ... Your existing styles ... */
+
+/* Media query to show/hide the hamburger icon based on screen width */
+@media screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+
+  .pageLinks {
+    display: none; /* Hide the regular menu on small screens */
+  }
+}

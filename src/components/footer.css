@@ -1,0 +1,129 @@
+.footer {
+  padding: 20px;
+  background-color: #e3e6f3;
+}
+
+.footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .logo {
+  margin-bottom: 30px;
+}
+
+.footer .follow {
+  margin-top: 20px;
+}
+
+.footer .follow i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+.footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+.col {
+  margin-bottom: 10px;
+}
+.footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+
+.footer a {
+  font-size: 13px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+.footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+.footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+.footer .follow i:hover,
+.footer a:hover {
+  color: #088178;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #e3e6f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: outset;
+}
+
+.pageLinks {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-right: 75px;
+  font-size: 20px;
+}
+
+.title {
+  margin-left: 75px;
+  margin-bottom: 95px;
+}
+
+.pageLinks a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.pageLinks a:hover {
+  border-bottom: 2px solid black;
+}
+
+.links {
+  text-align: center;
+  text-decoration: none;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  color: black;
+}
+
+.links a:hover {
+  border-bottom: 2px solid black; /* Add an underline effect on hover */
+}
+
+.links a:last-child {
+  font-size: 32px;
+  margin-left: 20px;
+}
