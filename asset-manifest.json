@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/simple_ecommerce/static/css/main.f1c8e27b.css",
+    "main.js": "/simple_ecommerce/static/js/main.6f27e9a6.js",
+    "static/js/787.6c741eb7.chunk.js": "/simple_ecommerce/static/js/787.6c741eb7.chunk.js",
+    "static/media/hero4.png": "/simple_ecommerce/static/media/hero4.d02d6d2baf046ba16e25.png",
+    "static/media/product3.jpeg": "/simple_ecommerce/static/media/product3.e639e63ca58778505ecf.jpeg",
+    "static/media/product7.jpeg": "/simple_ecommerce/static/media/product7.aebc1702cb0aff7d0de7.jpeg",
+    "static/media/product1.jpeg": "/simple_ecommerce/static/media/product1.e301feaf495d36fcefa2.jpeg",
+    "static/media/product8.jpeg": "/simple_ecommerce/static/media/product8.e92c387bc010a40498f2.jpeg",
+    "static/media/product9.jpeg": "/simple_ecommerce/static/media/product9.48339b77948a2d22d5a3.jpeg",
+    "static/media/product4.jpeg": "/simple_ecommerce/static/media/product4.af0aafa5e63c3af930ff.jpeg",
+    "static/media/product5.jpeg": "/simple_ecommerce/static/media/product5.a2c7a1cb77d6e42d98bc.jpeg",
+    "static/media/product10.jpeg": "/simple_ecommerce/static/media/product10.75117da318a9bf9740c4.jpeg",
+    "static/media/product6.jpeg": "/simple_ecommerce/static/media/product6.18d01f13d8e5f2576a81.jpeg",
+    "static/media/product2.jpeg": "/simple_ecommerce/static/media/product2.82d41bc8afa7d463b335.jpeg",
+    "static/media/banner.png": "/simple_ecommerce/static/media/banner.c1146e927b5ca8b4ce79.png",
+    "static/media/cart.jpg": "/simple_ecommerce/static/media/cart.143e491242b908d2e1fa.jpg",
+    "static/media/pay.png": "/simple_ecommerce/static/media/pay.47ad3e696f50516da1b3.png",
+    "index.html": "/simple_ecommerce/index.html",
+    "main.f1c8e27b.css.map": "/simple_ecommerce/static/css/main.f1c8e27b.css.map",
+    "main.6f27e9a6.js.map": "/simple_ecommerce/static/js/main.6f27e9a6.js.map",
+    "787.6c741eb7.chunk.js.map": "/simple_ecommerce/static/js/787.6c741eb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1c8e27b.css",
+    "static/js/main.6f27e9a6.js"
+  ]
+}
