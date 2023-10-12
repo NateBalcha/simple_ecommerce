@@ -18,7 +18,7 @@ export const CartItem = (props) => {
         <p>
           <b>{productName}</b>
         </p>
-        <p>${price}</p>
+        <p className="cartPrice">${price}</p>
         <div className="countHandler">
           {" "}
           {/* Start of the count handler */}

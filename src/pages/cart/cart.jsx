@@ -15,7 +15,7 @@ export const Cart = () => {
   return (
     <div className="cart">
       <section id="page-header-cart">
-        <h1>Shopping Cart</h1>
+        <h3>Shopping Cart</h3>
         <p>Check out here</p>
       </section>
       <div className="title">
@@ -58,7 +58,9 @@ export const Cart = () => {
                 <h1 className="subtotal">
                   <b>Subtotal: ${totalAmount}</b>
                 </h1>
-                <button onClick={() => navigate("/")}>Continue Shopping</button>
+                <button onClick={() => navigate("/store")}>
+                  Continue Shopping
+                </button>
                 <button>Checkout</button>
               </div>
             </>

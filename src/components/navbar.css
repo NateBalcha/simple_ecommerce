@@ -1,6 +1,3 @@
-.activeLink {
-  border-bottom: 2px solid black;
-}
 .navbar {
   width: 100%;
   height: 80px;
@@ -17,7 +14,6 @@
 .pageLinks {
   text-align: center;
   text-decoration: none;
-  color: black;
   margin-right: 75px;
   font-size: 17px;
 }
@@ -32,9 +28,9 @@
   margin-left: 20px;
 }
 
-.pageLinks a:hover {
+/* .pageLinks a:hover {
   border-bottom: 2px solid black;
-}
+} */
 
 .links {
   text-align: center;
@@ -49,15 +45,13 @@
 }
 
 .links a:hover {
-  border-bottom: 2px solid black; /* Add an underline effect on hover */
+  border-bottom: 2px solid black;
 }
 
 .links a:last-child {
   font-size: 25px;
   margin-left: 20px;
 }
-
-/* ... Your existing styles ... */
 
 .hamburger-icon {
   display: none; /* Hide the hamburger icon by default */
@@ -86,7 +80,23 @@
   margin: 10px 0;
 }
 
-/* ... Your existing styles ... */
+.cart-icon-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+/* .cart-indicator {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: rgb(182, 218, 233);
+  color: black;
+  border-radius: 50%;
+  padding: 5px 5px;
+  font-size: 14px;
+} */
 
 /* Media query to show/hide the hamburger icon based on screen width */
 @media screen and (max-width: 768px) {
@@ -96,5 +106,12 @@
 
   .pageLinks {
     display: none; /* Hide the regular menu on small screens */
+  }
+  .hamburger-icon {
+    margin-right: 50px;
+  }
+  .large-text {
+    color: white;
+    background-color: yellow;
   }
 }

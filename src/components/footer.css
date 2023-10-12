@@ -120,7 +120,7 @@
 }
 
 .links a:hover {
-  border-bottom: 2px solid black; /* Add an underline effect on hover */
+  border-bottom: 2px solid black;
 }
 
 .links a:last-child {
