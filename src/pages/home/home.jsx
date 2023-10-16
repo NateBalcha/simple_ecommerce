@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./home.css";
-import heroImage from "../../assets/hero/hero1.jpg"; // Import the image
+import heroImage from "../../assets/hero/hero1.jpeg"; // Import the image
 
 export const Home = () => {
   useEffect(() => {
@@ -16,12 +16,14 @@ export const Home = () => {
         {" "}
         <div className="homePage-text">
           <div className="home-text">
-            <h4>Find the best electronics here</h4>
+            <h4 className="firstTitle">Find the best electronics here</h4>
             <h2 className="large-text">BETTER THAN THE COMPETETOR</h2>
           </div>
-          <h1 className="product-text">On all products</h1>
+          <h1 className="thirdTitle">On all products</h1>
           <div className="home-text">
-            <p>Save more with coupons & up to 50% off! </p>
+            <p className="home-text">
+              Save more with coupons & up to 50% off!{" "}
+            </p>
           </div>
           <a href="/store" className="storeButton">
             Visit Our Store

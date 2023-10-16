@@ -33,15 +33,27 @@
 .homePage-text {
   margin-left: -30px;
 }
+.large-text {
+  color: rgb(255, 255, 255);
+}
 #hero a {
   background-image: url("../../assets/hero/hero1.jpg");
   padding: 14px 80px 14px 65px;
+}
+.thirdTitle {
+  color: #000;
+}
+.home-text {
+  color: aliceblue;
+}
+.firstTitle {
+  color: black;
 }
 
 .storeButton {
   background: transparent;
   border: none;
-  color: #088178;
+  color: aquamarine;
   font-weight: 700;
   font-size: 30px;
   text-decoration: none;
@@ -61,17 +73,28 @@
 @media (max-width: 868px) {
   .backgroundImg {
     background-image: url("../../assets/hero/hero1.jpg");
-    width: fit-content;
   }
-  .product-text {
+  .firstTitle {
+    color: white;
+  }
+  .thirdTitle {
+    color: aquamarine;
   }
   .large-text {
     background-color: transparent;
+    color: white;
+    padding-left: 20px;
   }
   .homePage-text {
     margin-top: -130px;
   }
   .storeButton {
     font-size: 12px;
+    background-color: rgb(185, 188, 207);
+    border-radius: 5%;
+    color: white;
+  }
+  .home-text {
+    color: rgb(255, 255, 255);
   }
 }
